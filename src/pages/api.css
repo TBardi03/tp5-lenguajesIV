@@ -1,0 +1,10 @@
+.api .toolbar{
+  margin: .5rem 0 1rem;
+  display: flex;
+  gap: .5rem;
+}
+.kvs span{
+  display:inline-block;
+  min-width: 78px;
+  color: var(--muted);
+}
