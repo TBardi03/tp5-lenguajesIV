@@ -7,6 +7,7 @@
         "postbuild": "shx cp dist/index.html dist/404.html",
         "build": "vite build",
         "preview": "vite preview",
+        "predeploy": "vite build && copy dist\\index.html dist\\404.html",
         "deploy": "gh-pages -d dist"
     },
     "dependencies": {
